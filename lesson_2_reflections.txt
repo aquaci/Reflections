@@ -4,4 +4,6 @@ When you initialize a repository, you create a knew git repo.The initialization 
  How is the staging area differnt from the working directory and the repository? What value do you think it offers?
 The working directory is just another directory on your computer which has not yet been committed to git. A reposirory is a directory which has been initialize to git with the 'git init' command. When a directory is initialize to Git, the files are still untracked, by this i mean git has no record of the files in that directory. Staging is the bridge between introducing your files from the working directory into the git repository. Staging doesn't commit the files though. The staging is great because it gives you the opportunity on what files to commit to the repository.
 
+How can you use the staging area to make sure you have one commit per logical change?
+You can use the staging area to make sure you make one commit per logical change by using 'git diff' command to check which files have been modified but not yet committed. You can stage the file you want to commit  and discard the changes you dont want to commit. You can also use the 'git diff --staged' command to see which changes you are going to modify before committing.
 
