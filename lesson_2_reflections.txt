@@ -1,0 +1,7 @@
+What hapoens when you initialize a repository? Why do you need it?
+When you initialize a repository, you create a knew git repo.The initialization done with the 'git init' command. Git however doesn't commit the files in the repo yet because git doesn't know which files you'd like to commit. You can use the 'git status'command to check the status of the new repo and you will see that no commits have been made yet and your files are untracked.
+
+ How is the staging area differnt from the working directory and the repository? What value do you think it offers?
+The working directory is just another directory on your computer which has not yet been committed to git. A reposirory is a directory which has been initialize to git with the 'git init' command. When a directory is initialize to Git, the files are still untracked, by this i mean git has no record of the files in that directory. Staging is the bridge between introducing your files from the working directory into the git repository. Staging doesn't commit the files though. The staging is great because it gives you the opportunity on what files to commit to the repository.
+
+
