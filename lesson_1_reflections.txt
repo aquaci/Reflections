@@ -1,0 +1,21 @@
+How did viewing a diff btn 2 versns of file help you see the bug that was introduced??
+When i compared the two different JS codes in the command line terminal, it related each line to see if they are the same. Lines that were similar weren't shown but lines that were different were shown in the command line so to make it easier to spot the difference. Once the diff is spoted, you find the bug and fix it.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term??
+Having the entire history of a file is very important in that, it will give indepth know of the file and you will get to understand the file better. The roots are everything and so is history. Other version will give you new ideas on the file which you could use in your file too. If it is your own previous version of a file, it will help a lot on creating the new file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+I think manually choosing to creat commit in Git is way better than automatically savings like in google drive and other cloud base version control platforms.
+
+When do you think some version control system, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+
+How can you use the commands git log and git diff to view the history of files??
+Git log gives the overall history of the recent commits made, including the commit IDs of each commit. To check the log, enter the command --git log in the command line terminal or git bash. Once the log gives you the history of the commits made, you can now copy the commit IDs and check the difference using the git diff command.
+
+How does using version control make you more confident to make changes that could break something?
+
+
+Now that you have your workspace set up, what do you want to try using Git for??
+1. To help make me a better programmer
+2. To collaborate with my project so that we can all make a contribution without stepping each others toes.
