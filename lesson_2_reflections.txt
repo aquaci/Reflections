@@ -7,3 +7,5 @@ The working directory is just another directory on your computer which has not y
 How can you use the staging area to make sure you have one commit per logical change?
 You can use the staging area to make sure you make one commit per logical change by using 'git diff' command to check which files have been modified but not yet committed. You can stage the file you want to commit  and discard the changes you dont want to commit. You can also use the 'git diff --staged' command to see which changes you are going to modify before committing.
 
+What are some situations when brancehes would be helpful in keeping your history organized? How would branches help?
+Branches would be very helpful need to tweak the original version of your file to perform a particular task or just for a demo version or to show to friends. With branches you don't have you re-write the code again or copy the whole code into another file to make the changes you want. You just create a branch from the original code, tweak it, stage and commit it and voala...you are through.
