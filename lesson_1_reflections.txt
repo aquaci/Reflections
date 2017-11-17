@@ -19,3 +19,8 @@ How does using version control make you more confident to make changes that coul
 Now that you have your workspace set up, what do you want to try using Git for??
 1. To help make me a better programmer
 2. To collaborate with my project so that we can all make a contribution without stepping each others toes.
+
+Git checkout - sort of restoring the previous version of your file. To do that, you run the code 
+>> git checkout [commit id].
+
+If you stage a file but do not want to commit it, you can use git command >>git reset [file_name] or git rm -[file_name] to unstage it.
