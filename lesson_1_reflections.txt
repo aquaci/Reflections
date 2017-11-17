@@ -14,7 +14,8 @@ How can you use the commands git log and git diff to view the history of files??
 Git log gives the overall history of the recent commits made, including the commit IDs of each commit. To check the log, enter the command --git log in the command line terminal or git bash. Once the log gives you the history of the commits made, you can now copy the commit IDs and check the difference using the git diff command.
 
 How does using version control make you more confident to make changes that could break something?
-
+//
+//
 
 Now that you have your workspace set up, what do you want to try using Git for??
 1. To help make me a better programmer
@@ -24,3 +25,5 @@ Git checkout - sort of restoring the previous version of your file. To do that, 
 >> git checkout [commit id].
 
 If you stage a file but do not want to commit it, you can use git command >>git reset [file_name] or git rm -[file_name] to unstage it.
+
+//
