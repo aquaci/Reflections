@@ -10,5 +10,8 @@ You can use the staging area to make sure you make one commit per logical change
 What are some situations when brancehes would be helpful in keeping your history organized? How would branches help?
 Branches would be very helpful, if need to tweak the original version of your file to perform a particular task or just for a demo version or to show to friends. With branches you don't have you re-write the code again or copy the whole code into another file to make the changes you want. You just create a branch from the original code, tweak it, stage and commit it and voala...you are through.
 
+What is the result of merging two braches together? Why do we represent it in the diagram the way we do?
+When two branches are merged together, the master branch gets updated, that basically is the result. Git in its own way adds they two files into one, deleting some and merging the rest.
+
 How do the diagrams help you visualize the branch structure?
 Withe the diagram you can trace each commit to its parent. If you happen to create a commit on another commit which is not a part of the original route a brach, it doesn't show in git commit history if you run 'git log'. To check that commit you will have to copy the commit id. You can create a new brach with the new commit by running 'git checkout -b new_branch_name'
