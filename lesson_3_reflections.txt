@@ -1,4 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work local?
-I'd like to use a remote repository when i'm collaborating with a group on a project. In that way, it is easy to push and pull 
-into and from the remote repo. If I keep all my wokr locan, that probably means its private and if its a group project, even 
+I'd like to use a remote repository when i'm collaborating with a group on a project. In that way, it is easy to push and pull
+into and from the remote repo. If I keep all my work local, that probably means its private and if its a group project, even
 though you might make git commits but your group members will not see your work.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date
+with your remote repository?
+It's best to pull manually rather than to have Git do stay up-to-date, that gives you the liberty
+to choose when you want to pull from the remote repository.
