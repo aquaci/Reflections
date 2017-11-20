@@ -15,3 +15,5 @@ When two branches are merged together, the master branch gets updated, that basi
 
 How do the diagrams help you visualize the branch structure?
 Withe the diagram you can trace each commit to its parent. If you happen to create a commit on another commit which is not a part of the original route a brach, it doesn't show in git commit history if you run 'git log'. To check that commit you will have to copy the commit id. You can create a new brach with the new commit by running 'git checkout -b new_branch_name'
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
