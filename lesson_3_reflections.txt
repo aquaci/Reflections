@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+I'd like to use a remote repository when i'm collaborating with a group on a project. In that way, it is easy to push and pull 
+into and from the remote repo. If I keep all my wokr locan, that probably means its private and if its a group project, even 
+though you might make git commits but your group members will not see your work.
