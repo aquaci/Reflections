@@ -12,3 +12,6 @@ Describe the difference between forks, clone, and branches. When would you use o
 Forking is almost similar to cloning but the difference is that cloning downloads the repository to your computer whilst forking replicates the repository to your virtual Github account. Branches are used when you want to test the master branch but you dont want to mess it up. Branching from the master, you can test it on all the feauture you want without hurting the master branch. In case the test is successful, you can merge it with the master branch.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
+
+How would you collaborate without using Git or Github? What would be easier, and what would be harder?
+Without Git and Github, collaborating would be time consuming, i think. Because we will have to create a file and shared them on cloud storage app or compressed the file and send them through email so that our partner would have access to the files we are working on. The only thing that would be easy is that we wont have to memorise all the git commands :).
