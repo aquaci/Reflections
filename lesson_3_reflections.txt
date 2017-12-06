@@ -10,3 +10,5 @@ to choose when you want to pull from the remote repository.
 
 Describe the difference between forks, clone, and branches. When would you use one instead of another?
 Forking is almost similar to cloning but the difference is that cloning downloads the repository to your computer whilst forking replicates the repository to your virtual Github account. Branches are used when you want to test the master branch but you dont want to mess it up. Branching from the master, you can test it on all the feauture you want without hurting the master branch. In case the test is successful, you can merge it with the master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
